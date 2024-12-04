@@ -1,0 +1,474 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8551046526929611817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: eb7acfc0-35d0-444c-bc88-d8b7cdf05f87
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Something wrong with the fog?
+  children:
+  - 0f781121-dae3-4484-8d69-2dfca6b412d0
+  rect:
+    serializedVersion: 2
+    x: 1082
+    y: 425
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5058403641786235833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: bd6ccc04-4a34-4869-a667-5d49b7667d91
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: What's new here?
+  children:
+  - 06f0a235-bf6c-48cc-9c8c-ee231fd471f3
+  rect:
+    serializedVersion: 2
+    x: 594
+    y: 73
+    width: 200
+    height: 100
+  onEnterAction: TestSelection
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4912940400254800854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 19202695-3203-4a27-b8cc-f11b259ffc66
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: What's wrong with the fog?
+  children:
+  - ffd82ef7-3a75-41f7-99a9-51e81d09a626
+  rect:
+    serializedVersion: 2
+    x: 1108
+    y: 186
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2882685699285484064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 6f12f18b-ea8d-4456-aa11-f4b8f4304c17
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Nice Name.
+  children:
+  - a5f56bd4-0954-479a-8dfa-61cf1ed07904
+  rect:
+    serializedVersion: 2
+    x: 1086
+    y: 307
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1440308673565444338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 9e432936-bf7a-4bd7-b076-13a0fa9f9d3e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Fog city
+  children:
+  - 6f12f18b-ea8d-4456-aa11-f4b8f4304c17
+  - eb7acfc0-35d0-444c-bc88-d8b7cdf05f87
+  rect:
+    serializedVersion: 2
+    x: 836
+    y: 306
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1019923047823917211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 06f0a235-bf6c-48cc-9c8c-ee231fd471f3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Dangerous Fog
+  children:
+  - f6c9e635-b76b-4bfd-8ffb-14868dca637e
+  - 19202695-3203-4a27-b8cc-f11b259ffc66
+  rect:
+    serializedVersion: 2
+    x: 859
+    y: 73
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: TestAIExit
+  condition:
+    and: []
+--- !u!114 &-351372185365149123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 96894c5b-68d2-4679-a30b-8e67bd073ba7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: How are you?
+  children:
+  - 068a1e3a-5e6d-499d-a5b7-29d51d9f8337
+  rect:
+    serializedVersion: 2
+    x: 603
+    y: 193
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-141915685803680763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: ac668555-ad35-4381-90d1-f728be1b36c3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Mask! Mask
+  children:
+  - 1c1f9375-1768-4440-8e04-b761ac84da1d
+  rect:
+    serializedVersion: 2
+    x: 583
+    y: 427
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Exit
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b755f01291e1e4a5db67f65f35603179, type: 3}
+  m_Name: Fog Issue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 3469765314050062478}
+  - {fileID: -5058403641786235833}
+  - {fileID: 5871007331869909924}
+  - {fileID: -351372185365149123}
+  - {fileID: -1019923047823917211}
+  - {fileID: 4125567486216687898}
+  - {fileID: -1440308673565444338}
+  - {fileID: 6303283234627982352}
+  - {fileID: -4912940400254800854}
+  - {fileID: -2882685699285484064}
+  - {fileID: -8551046526929611817}
+  - {fileID: 4777586126877615366}
+  - {fileID: 6299971507739917245}
+  - {fileID: 3925808631992561000}
+  - {fileID: 6784896123135881185}
+  - {fileID: -141915685803680763}
+  - {fileID: 8919068887544444255}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &3469765314050062478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 62837cac-e8e6-4213-b170-e105e467df68
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hi **Cough **Cough
+  children:
+  - bd6ccc04-4a34-4869-a667-5d49b7667d91
+  - 8b13478c-049b-4d0e-be87-74d304a2c5ed
+  - 96894c5b-68d2-4679-a30b-8e67bd073ba7
+  - ac668555-ad35-4381-90d1-f728be1b36c3
+  rect:
+    serializedVersion: 2
+    x: 347
+    y: 202
+    width: 200
+    height: 100
+  onEnterAction: TestRootEntry
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3925808631992561000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: ffd82ef7-3a75-41f7-99a9-51e81d09a626
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: It's Dangerous
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1358
+    y: 186
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4125567486216687898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 068a1e3a-5e6d-499d-a5b7-29d51d9f8337
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I'm feeling sick.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 847
+    y: 195
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4777586126877615366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 0f781121-dae3-4484-8d69-2dfca6b412d0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: yes, it's dangerous.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1331
+    y: 425
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5871007331869909924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 8b13478c-049b-4d0e-be87-74d304a2c5ed
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Where are we?
+  children:
+  - 9e432936-bf7a-4bd7-b076-13a0fa9f9d3e
+  rect:
+    serializedVersion: 2
+    x: 586
+    y: 307
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6299971507739917245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 4a8c8d35-864a-4dc5-a5f2-13d6c9ce14fa
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: '**Cough **Cough'
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1359
+    y: 73
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Attack
+  condition:
+    and: []
+--- !u!114 &6303283234627982352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: f6c9e635-b76b-4bfd-8ffb-14868dca637e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I see
+  children:
+  - 4a8c8d35-864a-4dc5-a5f2-13d6c9ce14fa
+  rect:
+    serializedVersion: 2
+    x: 1108
+    y: 73
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6784896123135881185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: a5f56bd4-0954-479a-8dfa-61cf1ed07904
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yea!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1336
+    y: 307
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8919068887544444255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 1c1f9375-1768-4440-8e04-b761ac84da1d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Freak!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 839
+    y: 429
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

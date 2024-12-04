@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8275095321803111757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: d744f797-4833-4832-a5c9-2a8064759bca
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thanks!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 542
+    y: 401
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-7201797135534181996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: a9ba93d2-7745-402d-bb4d-d12beef6f25e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Finally!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 532
+    y: 524
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GivingTheCream
+  condition:
+    and: []
+--- !u!114 &-5382755829078900102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 343b701e-0041-46f4-a740-e9abd22e0d2d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I'm looking on that cream
+  children:
+  - d744f797-4833-4832-a5c9-2a8064759bca
+  rect:
+    serializedVersion: 2
+    x: 291
+    y: 401
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Mother hubbards bunions
+        negate: 0
+--- !u!114 &-2178466153012973250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 43a6c1fa-84e0-469a-94ab-71d3570e873c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Do I look like a doctor?
+  children:
+  - d9490d54-b440-40e8-b30d-a0bbfd8bae12
+  rect:
+    serializedVersion: 2
+    x: 295
+    y: 113
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2028187842995484266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 7c090d32-fdf3-4d0f-a919-2fcd530081df
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: She needs a special cream
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 557
+    y: 264
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b755f01291e1e4a5db67f65f35603179, type: 3}
+  m_Name: Mother Son issue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 6577179349940363186}
+  - {fileID: -2178466153012973250}
+  - {fileID: 1325253290363819410}
+  - {fileID: -2028187842995484266}
+  - {fileID: 7986009369611214071}
+  - {fileID: -5382755829078900102}
+  - {fileID: -8275095321803111757}
+  - {fileID: 4260820897066219086}
+  - {fileID: -7201797135534181996}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1325253290363819410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: ed9340aa-c21e-46ac-9327-4539049d61af
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: What can I do?
+  children:
+  - 7c090d32-fdf3-4d0f-a919-2fcd530081df
+  rect:
+    serializedVersion: 2
+    x: 293
+    y: 253
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Mother hubbards bunions
+        negate: 1
+--- !u!114 &4260820897066219086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 6b8ca612-3ec1-4f94-a4a7-5d9d4d821c74
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I have the Cream!
+  children:
+  - a9ba93d2-7745-402d-bb4d-d12beef6f25e
+  rect:
+    serializedVersion: 2
+    x: 282
+    y: 524
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Mother hubbards bunions
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Mother hubbards bunions
+        negate: 0
+      - predicate: HasInventoryItem
+        parameters:
+        - cdf98e4c-bece-407a-8540-afeb26133d54
+        negate: 0
+--- !u!114 &6577179349940363186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: c43d9dd3-b8ce-491b-a84b-c689e498e5f5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: My mother is sick
+  children:
+  - 43a6c1fa-84e0-469a-94ab-71d3570e873c
+  - ed9340aa-c21e-46ac-9327-4539049d61af
+  - 343b701e-0041-46f4-a740-e9abd22e0d2d
+  - 6b8ca612-3ec1-4f94-a4a7-5d9d4d821c74
+  rect:
+    serializedVersion: 2
+    x: 60
+    y: 113
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7986009369611214071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: d9490d54-b440-40e8-b30d-a0bbfd8bae12
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Sorry to bother
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 546
+    y: 107
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

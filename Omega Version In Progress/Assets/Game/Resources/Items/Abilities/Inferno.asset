@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d34435a71104009a14832355d88841, type: 3}
+  m_Name: Inferno
+  m_EditorClassIdentifier: 
+  itemID: d0874efa-d6c3-4a78-86ea-b1c80d7014bc
+  displayName: Inferno
+  description: 'Damage: 4
+
+    Aoe
+
+    Radius: 2'
+  icon: {fileID: 21300000, guid: 5732dc58816b91d4dbc488b1b3c8f08b, type: 3}
+  pickup: {fileID: 3943737948439934746, guid: 3c4393bb5c17f401f9769d66ddaf6045, type: 3}
+  stackable: 0
+  price: 20
+  category: 4
+  consumable: 0
+  targetingStrategy: {fileID: 11400000, guid: d5a794cb6bf5d43e3af97a34d3e75a18, type: 2}
+  filterStrategies:
+  - {fileID: 11400000, guid: 51dbb65af272c4eb987568fce87ba45d, type: 2}
+  effectStrategies:
+  - {fileID: 11400000, guid: 2536dd23971e04b8d9538293953ee242, type: 2}
+  - {fileID: 11400000, guid: 320858e0299684167bbdda50a0be703a, type: 2}
+  cooldownTime: 2
+  manaCost: 20

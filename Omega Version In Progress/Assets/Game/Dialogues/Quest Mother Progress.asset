@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4802497703600694322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 3fd0fca9-1e2e-4c65-b1e0-48f0d7aa85d0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You can find it on the floor!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 666
+    y: 271
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: WhereTheCreamIs
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b755f01291e1e4a5db67f65f35603179, type: 3}
+  m_Name: Quest Mother Progress
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 6913835413906847914}
+  - {fileID: 3994826754665731540}
+  - {fileID: 2414021308392098870}
+  - {fileID: -4802497703600694322}
+  - {fileID: 3268751071511073870}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2414021308392098870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: be5ed121-887a-46d9-a571-d31110d8e30a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Cream?
+  children:
+  - 3fd0fca9-1e2e-4c65-b1e0-48f0d7aa85d0
+  rect:
+    serializedVersion: 2
+    x: 425
+    y: 276
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Mother hubbards bunions
+        negate: 0
+--- !u!114 &3268751071511073870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 2c0fbf2a-84c6-4cc0-ad22-7d63051151b5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: OK!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 675
+    y: 147
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3994826754665731540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: f36c7dbf-e8ae-4a91-b2d7-2835b578de06
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Bye!
+  children:
+  - 2c0fbf2a-84c6-4cc0-ad22-7d63051151b5
+  rect:
+    serializedVersion: 2
+    x: 425
+    y: 147
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6913835413906847914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: c768e02a-08b1-4c9e-891f-f7bad3f99f85
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hey!
+  children:
+  - f36c7dbf-e8ae-4a91-b2d7-2835b578de06
+  - be5ed121-887a-46d9-a571-d31110d8e30a
+  rect:
+    serializedVersion: 2
+    x: 174
+    y: 147
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

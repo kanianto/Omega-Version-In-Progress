@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bdd281288b5b4694858f8f14940a6ff, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  itemID: 06573ba1-0a43-41bf-b110-0ae5d4d3a84a
+  displayName: Shield
+  description: + 2 Defence
+  icon: {fileID: 21300000, guid: 886ffb608498aa04c9c0913d5ac3c394, type: 3}
+  pickup: {fileID: 3943737948439934746, guid: 3c4393bb5c17f401f9769d66ddaf6045, type: 3}
+  stackable: 0
+  price: 30
+  category: 1
+  allowedEquipLocation: 6
+  additiveModifiers:
+  - stat: 8
+    value: 2
+  percentageModifiers: []

@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7935606311726191107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 814b327b-440c-459e-b7e2-51db35d9d7f9
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Collect a Red Badge from a Red Enemy, and I'll give you the key
+  children:
+  - 5b7cb56d-9bf9-4e8d-9f53-bdc544fd7fff
+  - 2d3e1f69-d1f0-4670-8169-6f90513647df
+  - 5a105041-3619-45ab-bc7d-3260d8f20092
+  - 2510bafc-af26-4e82-938e-61095fdb069e
+  rect:
+    serializedVersion: 2
+    x: 438
+    y: 106
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6608736839659177454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 5a105041-3619-45ab-bc7d-3260d8f20092
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I'm working on it.
+  children:
+  - fd9e8eb3-eb2f-4739-aaae-748a78173f5a
+  rect:
+    serializedVersion: 2
+    x: 688
+    y: 371
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Quest Aaron
+        negate: 0
+--- !u!114 &-4087673608463110628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: fd9e8eb3-eb2f-4739-aaae-748a78173f5a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Good boy!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 940
+    y: 371
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2121477297921534216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 2a68628b-72a9-463b-a542-1b857a9fdfc1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: To go to new level accept my quest.
+  children:
+  - 814b327b-440c-459e-b7e2-51db35d9d7f9
+  rect:
+    serializedVersion: 2
+    x: 230
+    y: 58
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1051345654744802113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 2d3e1f69-d1f0-4670-8169-6f90513647df
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: No!
+  children:
+  - 6bbc45e8-7235-4c65-991b-bef2221a066e
+  rect:
+    serializedVersion: 2
+    x: 686
+    y: 243
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b755f01291e1e4a5db67f65f35603179, type: 3}
+  m_Name: Quest 1 Aaron
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 744357670510434926}
+  - {fileID: 744357670510434926}
+  - {fileID: -2121477297921534216}
+  - {fileID: -7935606311726191107}
+  - {fileID: 5416825257930860973}
+  - {fileID: -1051345654744802113}
+  - {fileID: 5366625983264923716}
+  - {fileID: 660608534725704217}
+  - {fileID: -6608736839659177454}
+  - {fileID: -4087673608463110628}
+  - {fileID: 1317631298698060079}
+  - {fileID: 7877274051575532771}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &660608534725704217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 6bbc45e8-7235-4c65-991b-bef2221a066e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Come back later then.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 936
+    y: 243
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &744357670510434926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 45f1978c-8cd3-4f42-9d39-b0ff10d69baf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Hello Fighter! '
+  children:
+  - 2a68628b-72a9-463b-a542-1b857a9fdfc1
+  rect:
+    serializedVersion: 2
+    x: 17
+    y: 21
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1317631298698060079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 2510bafc-af26-4e82-938e-61095fdb069e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Here the Red Badge.
+  children:
+  - 5841a5c6-aaaa-45ad-ba10-8cc9874f9977
+  rect:
+    serializedVersion: 2
+    x: 730
+    y: 507
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Quest Aaron
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Quest Aaron
+        negate: 0
+      - predicate: HasInventoryItem
+        parameters:
+        - 65d9f072-584a-4900-ae33-69977974a888
+        negate: 0
+--- !u!114 &5366625983264923716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: f3fc3799-5240-4b93-8ea3-49ccbf3088b8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Kill Enemy Red and bring me back his Red Badge.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 968
+    y: 118
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &5416825257930860973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 5b7cb56d-9bf9-4e8d-9f53-bdc544fd7fff
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yes!
+  children:
+  - f3fc3799-5240-4b93-8ea3-49ccbf3088b8
+  rect:
+    serializedVersion: 2
+    x: 687
+    y: 107
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Quest Aaron
+        negate: 1
+--- !u!114 &7877274051575532771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851ac6b1b0e86499985618fcb6ad34b4, type: 3}
+  m_Name: 5841a5c6-aaaa-45ad-ba10-8cc9874f9977
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Well done! Here's the key.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 980
+    y: 507
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GivingTheBadge
+  condition:
+    and: []

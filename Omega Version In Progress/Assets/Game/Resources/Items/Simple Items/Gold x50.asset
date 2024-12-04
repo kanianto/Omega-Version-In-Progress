@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bdd281288b5b4694858f8f14940a6ff, type: 3}
+  m_Name: Gold x50
+  m_EditorClassIdentifier: 
+  itemID: 59bb081f-5146-4020-9c55-6a70f027bca0
+  displayName: 
+  description: Sell at shop to get 50 Gold
+  icon: {fileID: 21300000, guid: 2c317dae05e94f140878e9fcf787583e, type: 3}
+  pickup: {fileID: 3943737948439934746, guid: 3c4393bb5c17f401f9769d66ddaf6045, type: 3}
+  stackable: 0
+  price: 50
+  category: 4
+  allowedEquipLocation: 7
+  additiveModifiers: []
+  percentageModifiers: []

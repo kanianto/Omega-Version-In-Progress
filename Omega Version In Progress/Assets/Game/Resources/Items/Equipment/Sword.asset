@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e1cee46746f64292b1d8686a66ae0f2, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemID: c71beed1-4636-4e8e-b293-bd2836aa61ec
+  displayName: Sword
+  description: 
+  icon: {fileID: 21300000, guid: d19901b0ee3c38743a7d383bd484b0b5, type: 3}
+  pickup: {fileID: 6570180697476450099, guid: 0797a03e75f4b44ea8da37819ba74f8b, type: 3}
+  stackable: 0
+  price: 22
+  category: 2
+  allowedEquipLocation: 5
+  equippedPrefab: {fileID: -3712932938851284413, guid: a12109a4fe6894ecab26b3830eb51ccd, type: 3}
+  animatorOverride: {fileID: 22100000, guid: 5b4c1630cdf1e4d229674d6148246ec3, type: 2}
+  weaponDamage: 2
+  percentageBonus: 0
+  weaponRange: 1
+  isRightHanded: 1
+  projectile: {fileID: 0}

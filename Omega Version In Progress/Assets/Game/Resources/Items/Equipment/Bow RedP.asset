@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e1cee46746f64292b1d8686a66ae0f2, type: 3}
+  m_Name: Bow RedP
+  m_EditorClassIdentifier: 
+  itemID: bc3b3f96-e463-43d0-91ef-b98f62207441
+  displayName: Bow Red Arrow
+  description: 
+  icon: {fileID: 21300000, guid: f8078c2bb5ee88d4a9472f76e501e0f3, type: 3}
+  pickup: {fileID: 2355848266820308816, guid: 7176fd244eb3b444f9ac50d87f1c4259, type: 3}
+  stackable: 0
+  price: 20
+  category: 2
+  allowedEquipLocation: 5
+  equippedPrefab: {fileID: 5587365447418869341, guid: 5dfaac5aba3364689b02a88ac439c49e, type: 3}
+  animatorOverride: {fileID: 22100000, guid: 258f7b69861704c7388b6cb8e2fb0759, type: 2}
+  weaponDamage: 3
+  percentageBonus: 0
+  weaponRange: 8
+  isRightHanded: 0
+  projectile: {fileID: 1158378515681384902, guid: 7378e1b445f9248af8ce0c1469be3705, type: 3}
